@@ -11,3 +11,4 @@ The current implementation supports the following CRC-CCITT computation:
 6. CRC-CCITT (0x1D0F, HEX)
 
 Support for Kermit,  and 32-bit computations (both ASCII and HEX) will follow soon.
+Main code was based from the 16-bit CRC-CCITT implementation which can be found here http://introcs.cs.princeton.edu/java/61data/CRC16CCITT.java
