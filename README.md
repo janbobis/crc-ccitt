@@ -12,3 +12,6 @@ The current implementation supports the following CRC-CCITT computation:
 
 Support for Kermit,  and 32-bit computations (both ASCII and HEX) will follow soon.
 Main code was based from the 16-bit CRC-CCITT implementation which can be found here http://introcs.cs.princeton.edu/java/61data/CRC16CCITT.java
+
+
+An example application has been created (ILapCodeGenerator.java) which makes use of CRC-CCITT XModem in generating the unique ILap Code (see Dr. Owenson's blog on reverse-engineering of the iLap Racing transponder which can be found here http://blog.owenson.me/reversing-ilap-race-transponders/)
