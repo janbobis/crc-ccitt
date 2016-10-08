@@ -36,7 +36,7 @@ public class ILapCodeGenerator {
 	
 	public static void main(String[] args) {
 		System.out.println(generateILapCode("1234567"));
-    // outputs "0EADDCBA98D6" in the console
+    		// outputs "0EADDCBA98D6" in the console
 	}
 
 }
