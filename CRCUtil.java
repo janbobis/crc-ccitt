@@ -56,7 +56,12 @@ public class CRCUtil {
 		}
 
 		crc &= 0xFFFF;
-		return Integer.toHexString(crc).toUpperCase();
+		String crcStr = Integer.toHexString(crc).toUpperCase();
+		int n = crcStr.length();
+		for(int i=0; i<(4-n); i++){
+			crcStr = "0" + crcStr;
+		}
+		return crcStr;
 	}
 
 	public static void main(String args[]) {
